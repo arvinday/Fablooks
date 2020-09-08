@@ -1,0 +1,31 @@
+#awwwards{position:absolute;top:75px;z-index:9999;}
+#awwwards.left{left:0;}
+#awwwards.right{right:0;}
+#awwwards a{display:block;width:70px;height:105px;text-indent:-8000px;background-repeat:no-repeat;background-position:0 0;overflow:hidden;}
+#awwwards.left.black a{background-image:url(/ribbons/awwwards_nominee_black_left.png?ef6f3c);}
+#awwwards.right.black a{background-image:url(/ribbons/awwwards_nominee_black_right.png?ef6f3c);}
+#awwwards.left.white a{background-image:url(/ribbons/awwwards_nominee_white_left.png?ef6f3c);}
+#awwwards.right.white a{background-image:url(/ribbons/awwwards_nominee_white_right.png?ef6f3c);}
+#awwwards.left.green a{background-image:url(/ribbons/awwwards_nominee_green_left.png?ef6f3c);}
+#awwwards.right.green a{background-image:url(/ribbons/awwwards_nominee_green_right.png?ef6f3c);}
+@media only screen and -Webkit-min-device-pixel-ratio 15,only screen and -moz-min-device-pixel-ratio 15,only screen and -o-min-device-pixel-ratio 32,only screen and min-device-pixel-ratio 15 {
+#awwwards a{-moz-background-size:70px 105px;-ie-background-size:70px 105px;-o-background-size:70px 105px;-webkit-background-size:70px 105px;background-size:70px 105px;}
+#awwwards.left.black a{background-image:url(/ribbons/awwwards_nominee_black_left2x.png?ef6f3c);}
+#awwwards.right.black a{background-image:url(/ribbons/awwwards_nominee_black_right2x.png?ef6f3c);}
+#awwwards.left.white a{background-image:url(/ribbons/awwwards_nominee_white_left2x.png?ef6f3c);}
+#awwwards.right.white a{background-image:url(/ribbons/awwwards_nominee_white_right2x.png?ef6f3c);}
+#awwwards.left.green a{background-image:url(/ribbons/awwwards_nominee_green_left2x.png?ef6f3c);}
+#awwwards.right.green a{background-image:url(/ribbons/awwwards_nominee_green_right2x.png?ef6f3c);}
+}div.wpcf7{margin:0;padding:0;}
+div.wpcf7-response-output{margin:2em .5em 1em;padding:.2em 1em;}
+div.wpcf7-mail-sent-ok{border:2px solid #398f14;}
+div.wpcf7-mail-sent-ng{border:2px solid red;}
+div.wpcf7-spam-blocked{border:2px solid orange;}
+div.wpcf7-validation-errors{border:2px solid #f7e700;}
+span.wpcf7-form-control-wrap{position:relative;}
+span.wpcf7-not-valid-tip{position:absolute;top:20%;left:20%;z-index:100;background:#fff;border:1px solid red;font-size:10pt;width:280px;padding:2px;}
+span.wpcf7-not-valid-tip-no-ajax{color:red;font-size:10pt;display:block;}
+span.wpcf7-list-item{margin-left:.5em;}
+.wpcf7-display-none{display:none;}
+div.wpcf7 img.ajax-loader{border:none;vertical-align:middle;margin-left:4px;}
+div.wpcf7 .watermark{color:#888;}
